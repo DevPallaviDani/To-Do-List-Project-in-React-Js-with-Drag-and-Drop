@@ -1,0 +1,155 @@
+
+  .paper-container {
+    justify-content: center;
+    margin-bottom: 1px;
+    max-height: 600px;
+    max-width: 500px;
+    width: 270px;
+    height: 500px;
+    overflow: auto;   
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+
+   
+  }
+  .list-itemtext {
+    display: flex;
+    align-items: center;  
+    font-size: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .list-subtitle {
+    font-size: 1px;
+  }
+  
+  .task-card {      
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 120px;
+    width: 270px;
+    border-radius:20px;   
+    background:#eceff1;
+  }
+  .add-task-button {
+    margin-right: 1px; 
+  }
+  
+  .task-list-container {
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-start;
+    min-width: 200;
+    max-width: 500;    
+    border-radius:20px;   
+    
+  }
+  .list-item-text{
+    height: 100px;   
+    margin-top: 5px;
+    margin-bottom: 5px;  
+    text-size-adjust: true;
+    font-size: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .grid-container{
+    align-items: center;
+    justify-content: flex-start;
+    
+  }
+  .dialog-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .box-dialog-add-edit-task{
+    display: flex;
+    border-color:lightgray;
+    margin: 8px;
+    padding-top: 2;
+  }
+  .form-box{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .assignees-chips {
+    margin-top: 1px;   
+    height: auto;  
+  }
+  .list-item-button{
+    height: 100px;
+    margin-top: 2px;
+    margin-bottom: 5px;   
+  }
+  .box-page{
+    display:flex;
+    justify-content: center;
+  }
+  .custom-avatar{
+    width: 15px;
+    height: 15px;
+    background-color:#9e9e9e;
+    font-Size: 12px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .react-beautiful-dnd-draggable {
+    transition: transform 0.2s;
+  }
+
+  .list-div{
+    display: flex;
+    border-radius: 8px;
+    padding: 2%;
+    margin-top: 10px;
+    transition: 0.2s;
+    background-color: white;
+  }
+  .tasks {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 47.5%;
+    padding: 15px;
+    background-color: rgb(50, 195, 205);
+  }
+  .drag{
+    box-shadow: 0 0 10px gray;
+  }
+  .dragactive {
+    background-color: rgb(0, 221, 236);
+  }
+  
+  .dragcomplete {
+    background-color:  rgb(50, 195, 205);
+  }
+  .remove {
+    background-color: rgb(235, 103, 80);
+  }
+  .tastList:hover{
+    box-shadow: 0 0 5px black;
+    transform: scale(1.03);
+  }
+  /* @media(max-width:700px){
+    .task-card {
+      width: 90%;
+    
+    }
+    .paper-container{
+      width: 90%;
+      flex-direction: column;
+    
+    }
+    .grid-container{
+      width: 90%;
+    }
+
+    .list-div{
+      list-style: none;
+      padding-left: 0%;
+    }
+  } */
